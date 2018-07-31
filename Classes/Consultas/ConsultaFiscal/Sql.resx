@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Query" xml:space="preserve">
+    <value>SELECT  tabela.CodigoEmpresa
+     ,  tabela.CodigoItem
+
+-- Linha 1
+     ,  tabela.CodigoGrupoDespesa
+     ,  tabela.DescricaoGrupoDespesa
+     ,  tabela.ContaContabil
+
+-- Linha 2
+     ,  tabela.CodigoTipoDespesa
+     ,  tabela.DescricaoTipoDespesa
+     ,  tabela.NomeContaContabil
+
+-- Linha 3
+     ,  tabela.ClassificacaoFiscal
+     ,  tabela.AliquotaIpi
+     ,  tabela.DescricaoIncidenciaIpi
+     ,  tabela.DescricaoIncidenciaIcms
+
+-- Linha 4
+     ,  tabela.CodigoFiscal
+     ,  tabela.Contabiliza
+     ,  tabela.CreditoPisCofins
+
+-- Linha 5
+     ,  tabela.CodigoOrigem
+     ,  tabela.DescricaoOrigem
+     ,  tabela.CodigoTipoItemSped
+     ,  tabela.DescricaoTipoItemSped
+  FROM  openquery
+  (
+    {0}
+  , '
+    SELECT  item.cod_empresa AS CodigoEmpresa
+         ,  item.cod_item AS CodigoItem
+         ,  NVL ( grupo_ctr_desp.gru_ctr_desp, 0 ) AS CodigoGrupoDespesa
+         ,  NVL ( grupo_ctr_desp.den_gru_ctr_desp, " " ) AS DescricaoGrupoDespesa
+         ,  NVL ( plano_contas.num_conta_reduz, " " ) AS ContaContabil
+         ,  NVL ( tipo_despesa.cod_tip_despesa, " " ) AS CodigoTipoDespesa
+         ,  NVL ( tipo_despesa.nom_tip_despesa, " " ) AS DescricaoTipoDespesa
+         ,  NVL ( plano_contas.den_conta, " " ) AS NomeContaContabil
+         ,  NVL ( item.cod_cla_fisc, " " ) AS ClassificacaoFiscal
+         ,  NVL ( item.pct_ipi, 0 ) AS AliquotaIpi
+         ,  NVL ( p_den_incid ( item_sup.ies_tip_incid_ipi ), " " ) AS DescricaoIncidenciaIpi
+         ,  NVL ( p_den_incid ( item_sup.ies_tip_incid_icms ), " " ) AS DescricaoIncidenciaIcms
+         ,  NVL ( item_sup.cod_fiscal, " " ) AS CodigoFiscal
+         ,  NVL ( item_parametro.parametros[18], "N" ) = "S" AS Contabiliza
+         ,  NVL ( item_parametro.parametros[141], "N" ) = "S" AS CreditoPisCofins
+         ,  NVL ( lor_item.ies_origem, " " ) AS CodigoOrigem
+         ,  NVL ( lor_item_orig.den_origem, " " ) AS DescricaoOrigem
+         ,  NVL ( obf_parametro_item.campo_texto, " " ) AS CodigoTipoItemSped
+         ,  NVL ( p_den_tipo_item_sped ( obf_parametro_item.campo_texto ), " " ) AS DescricaoTipoItemSped
+      FROM  item
+      LEFT  OUTER JOIN item_sup
+        ON  item_sup.cod_empresa = item.cod_empresa
+        AND item_sup.cod_item = item.cod_item
+      LEFT  OUTER JOIN grupo_ctr_desp
+        ON  grupo_ctr_desp.cod_empresa   = item_sup.cod_empresa
+        AND grupo_ctr_desp.gru_ctr_desp  = item_sup.gru_ctr_desp
+      LEFT  OUTER JOIN tipo_despesa
+        ON  tipo_despesa.cod_empresa     = item_sup.cod_empresa
+        AND tipo_despesa.cod_tip_despesa = item_sup.cod_tip_despesa
+      LEFT  OUTER JOIN plano_contas
+        ON  plano_contas.cod_empresa     = item_sup.cod_empresa
+        AND plano_contas.num_conta_reduz = item_sup.num_conta
+      LEFT  OUTER JOIN item_parametro
+        ON  item_parametro.cod_empresa   = item.cod_empresa
+        AND item_parametro.cod_item      = item.cod_item
+      LEFT  OUTER JOIN lor_item
+        ON  lor_item.cod_empresa         = item.cod_empresa
+        AND lor_item.cod_item            = item.cod_item
+      LEFT  OUTER JOIN lor_item_orig
+        ON  lor_item_orig.cod_origem     = lor_item.ies_origem
+      LEFT  OUTER JOIN obf_parametro_item
+        ON  obf_parametro_item.empresa   = item.cod_empresa
+        AND obf_parametro_item.item      = item.cod_item
+        AND obf_parametro_item.campo     = "tipo_item_sped"
+      WHERE item.cod_empresa             = TRIM ( UPPER ( "{1}" ) )
+      AND   item.cod_item                = TRIM ( UPPER ( "{2}" ) )
+  '
+  ) AS tabela</value>
+  </data>
+</root>

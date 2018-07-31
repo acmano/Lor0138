@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>T:\mano\CSharp\Android\Lor0138\Activities\Main\ActMain.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>T:\mano\CSharp\Android\Lor0138\Classes\Filtro\Classe.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>T:\mano\CSharp\Android\Lor0138\Classes\Comum\GestureListener.cs</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>
